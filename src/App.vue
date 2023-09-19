@@ -16,7 +16,10 @@ export default {
   },
   methods: {
     addOne() {
-      this.$store.commit('increment');
+      this.$store.commit({
+        type: 'increase',
+        value: 10,
+      });
     },
   },
 };
