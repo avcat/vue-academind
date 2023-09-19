@@ -1,17 +1,14 @@
 <template>
-  <learning-survey></learning-survey>
-  <user-experiences></user-experiences>
+  <base-container title="Vuex"></base-container>
 </template>
 
 <script>
-import LearningSurvey from './components/survey/LearningSurvey.vue';
-import UserExperiences from './components/survey/UserExperiences.vue';
+import BaseContainer from './components/BaseContainer.vue';
 
 export default {
   components: {
-    LearningSurvey,
-    UserExperiences,
-  }
+    BaseContainer,
+  },
 };
 </script>
 
