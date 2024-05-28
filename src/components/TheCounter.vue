@@ -8,6 +8,7 @@
 export default {
   computed: {
     counter() {
+      // @ts-ignore
       return this.$store.state.counter;
     },
   },
